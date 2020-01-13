@@ -15,6 +15,8 @@
 		633574AB23CCFCB9008C9935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633574A923CCFCB9008C9935 /* LaunchScreen.storyboard */; };
 		633574B623CCFCB9008C9935 /* UserDefaultLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574B523CCFCB9008C9935 /* UserDefaultLabTests.swift */; };
 		633574C223CCFEEE008C9935 /* ImageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 633574C123CCFEEE008C9935 /* ImageKit */; };
+		633574C523CD032A008C9935 /* Horoscopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574C423CD032A008C9935 /* Horoscopes.swift */; };
+		633574C723CD060A008C9935 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574C623CD060A008C9935 /* DetailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		633574B123CCFCB9008C9935 /* UserDefaultLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserDefaultLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		633574B523CCFCB9008C9935 /* UserDefaultLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultLabTests.swift; sourceTree = "<group>"; };
 		633574B723CCFCB9008C9935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		633574C423CD032A008C9935 /* Horoscopes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscopes.swift; sourceTree = "<group>"; };
+		633574C623CD060A008C9935 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		6335749223CCFCB6008C9935 = {
 			isa = PBXGroup;
 			children = (
+				633574C323CD0303008C9935 /* Model */,
 				6335749D23CCFCB6008C9935 /* UserDefaultLab */,
 				633574B423CCFCB9008C9935 /* UserDefaultLabTests */,
 				6335749C23CCFCB6008C9935 /* Products */,
@@ -84,6 +89,7 @@
 				6335749E23CCFCB6008C9935 /* AppDelegate.swift */,
 				633574A023CCFCB6008C9935 /* SceneDelegate.swift */,
 				633574A223CCFCB6008C9935 /* ViewController.swift */,
+				633574C623CD060A008C9935 /* DetailedViewController.swift */,
 				633574A423CCFCB6008C9935 /* Main.storyboard */,
 				633574A723CCFCB9008C9935 /* Assets.xcassets */,
 				633574A923CCFCB9008C9935 /* LaunchScreen.storyboard */,
@@ -99,6 +105,14 @@
 				633574B723CCFCB9008C9935 /* Info.plist */,
 			);
 			path = UserDefaultLabTests;
+			sourceTree = "<group>";
+		};
+		633574C323CD0303008C9935 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				633574C423CD032A008C9935 /* Horoscopes.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633574C523CD032A008C9935 /* Horoscopes.swift in Sources */,
 				633574A323CCFCB6008C9935 /* ViewController.swift in Sources */,
+				633574C723CD060A008C9935 /* DetailedViewController.swift in Sources */,
 				6335749F23CCFCB6008C9935 /* AppDelegate.swift in Sources */,
 				633574A123CCFCB6008C9935 /* SceneDelegate.swift in Sources */,
 			);
