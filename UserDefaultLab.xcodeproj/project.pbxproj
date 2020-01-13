@@ -18,6 +18,7 @@
 		633574C523CD032A008C9935 /* Horoscopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574C423CD032A008C9935 /* Horoscopes.swift */; };
 		633574C723CD060A008C9935 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574C623CD060A008C9935 /* DetailedViewController.swift */; };
 		633574C923CD0696008C9935 /* HoroscopeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574C823CD0696008C9935 /* HoroscopeCell.swift */; };
+		633574CC23CD0DED008C9935 /* HoroscopeAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574CB23CD0DED008C9935 /* HoroscopeAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		633574C423CD032A008C9935 /* Horoscopes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscopes.swift; sourceTree = "<group>"; };
 		633574C623CD060A008C9935 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		633574C823CD0696008C9935 /* HoroscopeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeCell.swift; sourceTree = "<group>"; };
+		633574CB23CD0DED008C9935 /* HoroscopeAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		633574CA23CD0D58008C9935 /* API Client */ = {
 			isa = PBXGroup;
 			children = (
+				633574CB23CD0DED008C9935 /* HoroscopeAPIClient.swift */,
 			);
 			path = "API Client";
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				633574C523CD032A008C9935 /* Horoscopes.swift in Sources */,
+				633574CC23CD0DED008C9935 /* HoroscopeAPIClient.swift in Sources */,
 				633574A323CCFCB6008C9935 /* ViewController.swift in Sources */,
 				633574C923CD0696008C9935 /* HoroscopeCell.swift in Sources */,
 				633574C723CD060A008C9935 /* DetailedViewController.swift in Sources */,
