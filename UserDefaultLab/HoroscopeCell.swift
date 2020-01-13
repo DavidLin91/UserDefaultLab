@@ -14,8 +14,10 @@ class HoroscopeCell: UITableViewCell {
     @IBOutlet weak var horoscopeDates: UILabel!
     
     
-    func configureCell() {
-        
+    func configureCell(horoscope: Horoscopes) {
+        horoscopeName.text = horoscope.sunsign
+        horoscopeDates.text = horoscope.date
+        horoscopeImage.image = UIImage(named: "\(horoscope.sunsign.lowercased())")
     }
 
 }
