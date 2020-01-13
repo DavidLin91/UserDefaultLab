@@ -17,6 +17,7 @@
 		633574C223CCFEEE008C9935 /* ImageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 633574C123CCFEEE008C9935 /* ImageKit */; };
 		633574C523CD032A008C9935 /* Horoscopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574C423CD032A008C9935 /* Horoscopes.swift */; };
 		633574C723CD060A008C9935 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574C623CD060A008C9935 /* DetailedViewController.swift */; };
+		633574C923CD0696008C9935 /* HoroscopeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574C823CD0696008C9935 /* HoroscopeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		633574B723CCFCB9008C9935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		633574C423CD032A008C9935 /* Horoscopes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horoscopes.swift; sourceTree = "<group>"; };
 		633574C623CD060A008C9935 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		633574C823CD0696008C9935 /* HoroscopeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				633574C323CD0303008C9935 /* Model */,
+				633574CA23CD0D58008C9935 /* API Client */,
 				6335749D23CCFCB6008C9935 /* UserDefaultLab */,
 				633574B423CCFCB9008C9935 /* UserDefaultLabTests */,
 				6335749C23CCFCB6008C9935 /* Products */,
@@ -90,6 +93,7 @@
 				633574A023CCFCB6008C9935 /* SceneDelegate.swift */,
 				633574A223CCFCB6008C9935 /* ViewController.swift */,
 				633574C623CD060A008C9935 /* DetailedViewController.swift */,
+				633574C823CD0696008C9935 /* HoroscopeCell.swift */,
 				633574A423CCFCB6008C9935 /* Main.storyboard */,
 				633574A723CCFCB9008C9935 /* Assets.xcassets */,
 				633574A923CCFCB9008C9935 /* LaunchScreen.storyboard */,
@@ -113,6 +117,13 @@
 				633574C423CD032A008C9935 /* Horoscopes.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		633574CA23CD0D58008C9935 /* API Client */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "API Client";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 			files = (
 				633574C523CD032A008C9935 /* Horoscopes.swift in Sources */,
 				633574A323CCFCB6008C9935 /* ViewController.swift in Sources */,
+				633574C923CD0696008C9935 /* HoroscopeCell.swift in Sources */,
 				633574C723CD060A008C9935 /* DetailedViewController.swift in Sources */,
 				6335749F23CCFCB6008C9935 /* AppDelegate.swift in Sources */,
 				633574A123CCFCB6008C9935 /* SceneDelegate.swift in Sources */,

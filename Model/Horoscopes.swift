@@ -12,5 +12,4 @@ struct Horoscopes: Codable {
     let sunsign: String
     let date: String
     let horoscope: String
-    let mood: String
 }
