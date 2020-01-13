@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		633574A823CCFCB9008C9935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633574A723CCFCB9008C9935 /* Assets.xcassets */; };
 		633574AB23CCFCB9008C9935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 633574A923CCFCB9008C9935 /* LaunchScreen.storyboard */; };
 		633574B623CCFCB9008C9935 /* UserDefaultLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633574B523CCFCB9008C9935 /* UserDefaultLabTests.swift */; };
+		633574C223CCFEEE008C9935 /* ImageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 633574C123CCFEEE008C9935 /* ImageKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633574C223CCFEEE008C9935 /* ImageKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +117,9 @@
 			dependencies = (
 			);
 			name = UserDefaultLab;
+			packageProductDependencies = (
+				633574C123CCFEEE008C9935 /* ImageKit */,
+			);
 			productName = UserDefaultLab;
 			productReference = 6335749B23CCFCB6008C9935 /* UserDefaultLab.app */;
 			productType = "com.apple.product-type.application";
@@ -165,6 +170,9 @@
 				Base,
 			);
 			mainGroup = 6335749223CCFCB6008C9935;
+			packageReferences = (
+				633574C023CCFEEE008C9935 /* XCRemoteSwiftPackageReference "ImageKit" */,
+			);
 			productRefGroup = 6335749C23CCFCB6008C9935 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -469,6 +477,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		633574C023CCFEEE008C9935 /* XCRemoteSwiftPackageReference "ImageKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexpaul/ImageKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		633574C123CCFEEE008C9935 /* ImageKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 633574C023CCFEEE008C9935 /* XCRemoteSwiftPackageReference "ImageKit" */;
+			productName = ImageKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6335749323CCFCB6008C9935 /* Project object */;
 }
